@@ -1,13 +1,13 @@
-package com.hosptal.Healthcare.Management.System;
+package com.ecommerce.books.Management.System;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HealthcareManagementSystemApplication {
+public class EcommerceBookSystem {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HealthcareManagementSystemApplication.class, args);
+		SpringApplication.run(EcommerceBookSystem.class, args);
 	}
 
 }
