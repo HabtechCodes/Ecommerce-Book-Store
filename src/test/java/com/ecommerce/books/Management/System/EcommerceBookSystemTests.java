@@ -1,4 +1,4 @@
-package com.hosptal.Healthcare.Management.System;
+package com.ecommerce.books.Management.System;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

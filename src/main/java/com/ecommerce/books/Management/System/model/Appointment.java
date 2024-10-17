@@ -1,4 +1,4 @@
-package com.hosptal.Healthcare.Management.System.model;
+package com.ecommerce.books.Management.System.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

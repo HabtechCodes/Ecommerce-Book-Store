@@ -1,6 +1,6 @@
-package com.hosptal.Healthcare.Management.System.repository;
+package com.ecommerce.books.Management.System.repository;
 
-import com.hosptal.Healthcare.Management.System.model.Patient;
+import com.ecommerce.books.Management.System.model.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

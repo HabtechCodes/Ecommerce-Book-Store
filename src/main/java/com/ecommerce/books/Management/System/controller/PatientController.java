@@ -1,7 +1,7 @@
-package com.hosptal.Healthcare.Management.System.controller;
+package com.ecommerce.books.Management.System.controller;
 
-import com.hosptal.Healthcare.Management.System.model.Patient;
-import com.hosptal.Healthcare.Management.System.service.PatientService;
+import com.ecommerce.books.Management.System.model.Patient;
+import com.ecommerce.books.Management.System.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,6 +29,8 @@ public class PatientController {
         patientService.addPatient(patient);
         return patientService.getPatientById(patient.getId());
     }
+
+
 
     @DeleteMapping("patients/{patientId}")
     public String deletePatientById(@PathVariable int patientId) {

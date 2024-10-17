@@ -1,9 +1,9 @@
-package com.hosptal.Healthcare.Management.System.service;
+package com.ecommerce.books.Management.System.service;
 
-import com.hosptal.Healthcare.Management.System.model.Appointment;
-import com.hosptal.Healthcare.Management.System.model.Patient;
-import com.hosptal.Healthcare.Management.System.repository.AppointmentRepository;
-import com.hosptal.Healthcare.Management.System.repository.PatientRepository;
+import com.ecommerce.books.Management.System.model.Appointment;
+import com.ecommerce.books.Management.System.model.Patient;
+import com.ecommerce.books.Management.System.repository.AppointmentRepository;
+import com.ecommerce.books.Management.System.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

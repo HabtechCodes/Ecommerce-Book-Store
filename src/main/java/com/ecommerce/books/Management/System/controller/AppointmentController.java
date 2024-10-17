@@ -1,8 +1,8 @@
-package com.hosptal.Healthcare.Management.System.controller;
+package com.ecommerce.books.Management.System.controller;
 
-import com.hosptal.Healthcare.Management.System.model.Appointment;
-import com.hosptal.Healthcare.Management.System.model.Patient;
-import com.hosptal.Healthcare.Management.System.service.AppointmentService;
+import com.ecommerce.books.Management.System.model.Appointment;
+import com.ecommerce.books.Management.System.model.Patient;
+import com.ecommerce.books.Management.System.service.AppointmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
